@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Link } from "react-router-dom"
 import "./header.css"
 function Header() {
     const [isSideMenuVisible, setIsSideMenuVisible] = useState(false)
@@ -21,13 +22,11 @@ function Header() {
             {
                 isSideMenuVisible ?
                     <div className="header-side-menu">
-                        <ul>
-                            <li>Inicio</li>
-                            <li>Menú</li>
-                            <li>¿Cómo surgió?</li>
-                            <li>Diferentes estilos</li>
-                            <li>Registro</li>
-                        </ul>
+                      <ul>
+                        <li><Link to="/home">Inicio</Link></li>
+                        <li><Link to="/gallery">Galería</Link></li>
+                        <li><Link to="/history">Historia</Link></li>
+                    </ul>
                     </div>
                     :
                     <></>
