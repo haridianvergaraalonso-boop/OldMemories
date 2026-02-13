@@ -69,5 +69,5 @@ npm run dev
 
 © 2026 OldMemories. All rights reserved.
 
-##Did with
+## Did with
 Tibu`s tools and claude´s help as well <3
