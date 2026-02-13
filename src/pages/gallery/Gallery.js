@@ -1,0 +1,55 @@
+const galleryItems = [
+  {
+    id: 1,
+    title: "Dreamscape",
+    description: "Fondo inspirado en la foto del fotógrafo Charles O'Rear, usada posteriormente como fondo de Windows XP e icono de este estilo.",
+    category: "naturaleza",
+    year: "2004",
+    color: "#6ee7b7",
+    emoji: "🌿",
+    tags: ["Windows XP", "wallpaper", "naturaleza"],
+  },
+  {
+    id: 2,
+    title: "Esfera de Cristal",
+    description: "Las esferas translúcidas con reflejos internos fueron el icono visual por excelencia del Frutiger Aero.",
+    category: "tech",
+    year: "2006",
+    color: "#7dd3fc",
+    emoji: "🔮",
+    tags: ["cleancore", "3D", "tech"],
+  },
+  {
+    id: 3,
+    title: "Agua Cristalina",
+    description: "El agua limpia y transparente simbolizaba pureza tecnológica y un mundo sin contaminación.",
+    category: "naturaleza",
+    year: "2005",
+    color: "#38bdf8",
+    emoji: "💧",
+    tags: ["agua", "pureza", "naturaleza"],
+  },
+  {
+    id: 4,
+    title: "UI Translúcida",
+    description: "Ventanas con efecto de vidrio, bordes redondeados y gradientes suaves. El lenguaje visual de Windows Vista.",
+    category: "tech",
+    year: "2007",
+    color: "#a5b4fc",
+    emoji: "🖥️",
+    tags: ["Windows Vista", "Aero Glass", "UI"],
+  },
+
+  {
+    id: 5,
+    title: "Gradiente Teal",
+    description: "El gradiente de azul a verde teal fue la firma cromática de toda una generación de diseño web.",
+    category: "arte",
+    year: "2003",
+    color: "#2dd4bf",
+    emoji: "🎨",
+    tags: ["color", "gradiente", "paleta"],
+  },
+];
+
+export default galleryItems;

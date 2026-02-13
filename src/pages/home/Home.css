@@ -1,0 +1,21 @@
+.Home-title {
+
+    font-size: 120%;
+    font-weight: 300;
+    letter-spacing: 20%;
+    color: rgb(45, 45, 46);
+    margin: 0;
+    line-height: 1.8;
+
+}
+
+
+.Home-subtitle {
+    font-size: 150%;
+    font-weight: 200;
+    letter-spacing: normal;
+    margin: 0%;
+    line-height: 1.8;
+    color: rgb(25, 55, 146);
+
+}
