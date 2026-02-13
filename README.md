@@ -1,16 +1,73 @@
-# React + Vite
+# OldMemories 🌐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A website dedicated to the Frutiger Aero aesthetic, the digital style that defined the internet of the 2000s.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About The Project
 
-## React Compiler
+OldMemories is a React web application that explores the Frutiger Aero aesthetic movement. 
+This style, popular between 2004 and 2012, combined technological optimism with nature, 
+characterized by glass textures, transparencies, blue/green colors and aquatic motifs.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The website includes:
+- A home page introducing the aesthetic
+- A visual gallery with iconic images of the style
+- A history page explaining the origins and evolution of the movement
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Built With
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [React Router DOM](https://reactrouter.com/)
+
+---
+
+## Third Party Components
+
+- Custom i18n multilanguage system inspired by [react-i18next](https://react.i18next.com/) — allows switching between Spanish and English throughout the app.
+
+---
+
+## Getting Started
+
+### Installation
+
+1. Clone the repo
+```bash
+git clone https://github.com/haridianvergaraalonso-boop/OldMemories
+```
+2. Install dependencies
+```bash
+npm install
+```
+3. Run the project
+```bash
+npm run dev
+```
+
+---
+
+## Tutorials & Resources
+
+- [README Template](https://github.com/othneildrew/Best-README-Template)
+- [React Router Tutorial](https://reactrouter.com/en/main/start/tutorial)
+- [Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Frutiger Aero Aesthetic](https://aesthetics.fandom.com/wiki/Frutiger_Aero)
+
+---
+
+## Design Inspiration
+
+- Figma inspiration: [Glassmorphism UI](https://www.figma.com/community/file/1020079203222939174)
+
+---
+
+## License
+
+© 2026 OldMemories. All rights reserved.
+
+##Did with
+Tibu`s tools and claude´s help as well <3
