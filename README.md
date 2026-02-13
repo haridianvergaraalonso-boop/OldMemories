@@ -50,14 +50,6 @@ npm run dev
 
 ---
 
-## Tutorials & Resources
-
-- [README Template](https://github.com/othneildrew/Best-README-Template)
-- [React Router Tutorial](https://reactrouter.com/en/main/start/tutorial)
-- [Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- [Frutiger Aero Aesthetic](https://aesthetics.fandom.com/wiki/Frutiger_Aero)
-
----
 
 ## Design Inspiration
 
