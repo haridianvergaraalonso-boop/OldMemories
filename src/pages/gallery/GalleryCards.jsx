@@ -1,6 +1,6 @@
 import "./Gallery.css";
 
-function GalleryCards({ title, description, category, year, color, image, tags }) {
+function GalleryCards({ id, title, description, category, year, color, image, tags, onDelete, onEdit }) {
     return (
         <article className="gallery-card" style={{ "--card-color": color }}>
 
@@ -20,6 +20,21 @@ function GalleryCards({ title, description, category, year, color, image, tags }
                         <li key={tag} className="gallery-card__tag">{tag}</li>
                     ))}
                 </ul>
+
+                <div className="gallery-card__actions">
+                    <button
+                        className="gallery-card__btn gallery-card__btn--edit"
+                        onClick={() => onEdit({ id, title, description, category, year, image, tags })}
+                    >
+                        🍃Editar
+                    </button>
+                    <button
+                        className="gallery-card__btn gallery-card__btn--delete"
+                        onClick={() => onDelete(id)}
+                    >
+                        🐟Eliminar
+                    </button>
+                </div>
             </div>
 
         </article>
