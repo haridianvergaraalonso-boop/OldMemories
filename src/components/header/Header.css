@@ -1,45 +1,97 @@
-.header-main {
-    width: 100%;
-    height: 4em;
+/* ===========================
+   Header — Frutiger Aero
+   =========================== */
 
-    background-color: aquamarine;
+.header-main {
+  width: 100%;
+  height: 4.5em;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 20px rgba(100, 200, 220, 0.15);
+}
+
+.header-logo {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: transform 0.2s;
+}
+
+.header-logo:hover {
+  transform: scale(1.05);
 }
 
 .header-logo img {
-    width: 4em;
-    height: 100%;
-    object-fit: contain;
-}
-
-.header-side-menu{
-    background-color: aquamarine;
-    width: 100%;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: larger;
-    color: grey;
-}
-
-.header-main {
-    width: 100%;
-    height: 4em;
-    background-color: aquamarine;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 1rem;
+  width: 3.5em;
+  height: 3.5em;
+  object-fit: contain;
 }
 
 .header-lang-btn {
-    background: rgba(255, 255, 255, 0.4);
-    border: 1px solid rgba(255, 255, 255, 0.6);
-    border-radius: 20px;
-    padding: 0.3rem 0.8rem;
-    font-weight: 700;
-    color: #1a4a6e;
-    cursor: pointer;
-    font-size: 0.85rem;
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  padding: 0.3rem 1rem;
+  font-weight: 700;
+  color: #1a4a6e;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.2s;
 }
 
 .header-lang-btn:hover {
-    background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.7);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(100, 200, 220, 0.3);
+}
+
+/* ---- Menú desplegable ---- */
+.header-side-menu {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 24px rgba(100, 200, 220, 0.15);
+  animation: menu-in 0.2s ease;
+}
+
+@keyframes menu-in {
+  from { opacity: 0; transform: translateY(-8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.header-side-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.header-side-menu ul li a {
+  display: block;
+  padding: 0.6rem 0.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1a4a6e;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+
+.header-side-menu ul li a:hover {
+  background: rgba(100, 200, 230, 0.2);
+  padding-left: 1rem;
+  color: #0d3a5c;
 }

@@ -92,8 +92,8 @@ function Gallery() {
       <Header />
 
       <section className="gallery__hero">
-        <h1 className="gallery__title">Archivo</h1>
-        <p className="gallery__subtitle">Fotos que muestran la idea del futuro concebido por las personas de la época.</p>
+        <h1 className="gallery__title">{t.galleryTitle}</h1>
+        <p className="gallery__subtitle">{t.gallerySubtitle}</p>
       </section>
 
       <div className="gallery__filters">
