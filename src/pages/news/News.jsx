@@ -12,7 +12,6 @@ function News() {
                 <h1 className="news__title">Noticias</h1>
                 <p className="news__subtitle">Lo último sobre la estética Frutiger Aero y el internet de los 2000s.</p>
 
-    
                 <a className="news__rss-link" href="https://frutigeraero.org/rss/blog.xml" target="_blank" rel="noreferrer">
                     📡 Suscríbete vía RSS
                 </a>
