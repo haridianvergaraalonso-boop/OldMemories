@@ -2,7 +2,7 @@
 
 > A website dedicated to the Frutiger Aero aesthetic, the digital style that defined the internet of the 2000s.
 
-![RSS Feed Screenshot](./public/rss.png)
+![RSS Feed Screenshot](./docs/rss.png)
 
 🌐 **Live Demo:** [https://old-memories-8e409.web.app](https://old-memories-8e409.web.app)
 
