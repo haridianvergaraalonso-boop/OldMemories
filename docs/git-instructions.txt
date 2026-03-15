@@ -24,7 +24,7 @@
 7.-) subir al respositorio remoto los últimos commits
      git push origin main
 
-----------------------------------------------------------
+------------------------------------------------------------
 
 8.-) clonar un repositorio en una nueva carpeta vacía
      git clone url-del-repositorio

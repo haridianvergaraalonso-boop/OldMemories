@@ -1,0 +1,113 @@
+.news {
+  min-height: 100vh;
+  background: linear-gradient(160deg, #e0f7fa 0%, #b2ebf2 40%, #e0f2f1 100%);
+}
+
+.news__hero {
+  text-align: center;
+  padding: 3rem 2rem 2rem;
+}
+
+.news__title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 800;
+  color: #1a4a6e;
+  margin: 0 0 0.5rem;
+}
+
+.news__subtitle {
+  font-size: 1rem;
+  color: #2d6a8a;
+  font-weight: 600;
+  margin: 0 0 1.5rem;
+}
+
+.news__rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1.4rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(255, 160, 0, 0.4);
+  color: #b35c00;
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.news__rss-link:hover {
+  background: rgba(255, 200, 100, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 160, 0, 0.2);
+}
+
+
+.news__grid {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem 2rem 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.2rem;
+}
+
+
+.news-item {
+  background: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  padding: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.news-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(100, 200, 220, 0.3);
+}
+
+.news-item__title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1a4a6e;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.news-item__desc {
+  font-size: 0.85rem;
+  color: #3a6a8a;
+  line-height: 1.6;
+  margin: 0;
+  flex: 1;
+}
+
+.news-item__link {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #2d7a9a;
+  text-decoration: none;
+  transition: color 0.2s;
+  align-self: flex-start;
+}
+
+.news-item__link:hover {
+  color: #1a4a6e;
+}
+
+
+@media (max-width: 640px) {
+  .news__grid {
+    grid-template-columns: 1fr;
+    padding: 1rem 1rem 3rem;
+  }
+
+  .news__title {
+    font-size: 1.8rem;
+  }
+}

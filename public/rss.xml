@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>OldMemories - Frutiger Aero News</title>
+    <link>https://old-memories-8e409.web.app</link>
+    <description>Lo último sobre la estética Frutiger Aero y el internet de los 2000s.</description>
+    <language>es</language>
+
+    <item>
+      <title>El auge de Frutiger Aero</title>
+      <description>Cómo la estética brillante e inspirada en la naturaleza de los años 2000 definió toda una generación de diseño digital.</description>
+      <link>https://old-memories-8e409.web.app/news</link>
+    </item>
+
+    <item>
+      <title>Windows Vista y la era del cristal</title>
+      <description>La interfaz Aero de Microsoft trajo transparencias y efectos de desenfoque a millones de escritorios de todo el mundo.</description>
+      <link>https://old-memories-8e409.web.app/news</link>
+    </item>
+
+    <item>
+      <title>Botones de agua y skeuomorfismo</title>
+      <description>Antes de que el diseño plano lo dominara todo, las interfaces rebosaban reflejos, degradados y texturas táctiles.</description>
+      <link>https://old-memories-8e409.web.app/news</link>
+    </item>
+
+    <item>
+      <title>El regreso de la estética Y2K</title>
+      <description>La Generación Z está redescubriendo el lenguaje visual burbujeante y optimista de la cultura de internet de principios de los 2000.</description>
+      <link>https://old-memories-8e409.web.app/news</link>
+    </item>
+
+    <item>
+      <title>Naturaleza y tecnología de la mano</title>
+      <description>Frutiger Aero fusionaba elementos orgánicos como el agua y las hojas con acabados cromados y futuristas.</description>
+      <link>https://old-memories-8e409.web.app/news</link>
+    </item>
+
+  </channel>
+</rss>

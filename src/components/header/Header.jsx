@@ -32,6 +32,7 @@ function Header() {
                             <li><Link to="/home">{t.home}</Link></li>
                             <li><Link to="/gallery">{t.gallery}</Link></li>
                             <li><Link to="/history">{t.history}</Link></li>
+                            <li><Link to="/news">{t.news}</Link></li>
                         </ul>
                     </div>
                     :
