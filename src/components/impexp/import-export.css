@@ -1,0 +1,50 @@
+.import-export {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 16px;
+  padding: 20px 28px;
+  margin: 0 auto 32px auto;
+  max-width: 500px;
+  box-shadow: 0 4px 20px rgba(100, 180, 220, 0.2);
+}
+
+.import-export__title {
+  color: #2a7a9b;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.import-export__group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.import-export__group span {
+  width: 45px;
+  font-weight: 600;
+  color: #2a7a9b;
+  font-size: 0.9rem;
+}
+
+.import-export__group button,
+.import-export__group label {
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(100, 180, 220, 0.4);
+  border-radius: 20px;
+  padding: 6px 14px;
+  color: #2a7a9b;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.import-export__group button:hover,
+.import-export__group label:hover {
+  background: rgba(100, 180, 220, 0.3);
+  border-color: rgba(100, 180, 220, 0.7);
+}

@@ -1,6 +1,7 @@
 import * as XLSX from "xlsx";
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "../../firebase/Firebase";
+import "./import-export.css";
 
 function ImportExport({ galleryItems, onImportDone }) {
 

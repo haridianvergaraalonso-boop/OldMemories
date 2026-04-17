@@ -6,8 +6,8 @@ import GalleryCards from "./GalleryCards";
 import { useLanguage } from "../../i18n/Language";
 import translations from "../../i18n/translations";
 import "./Gallery.css";
-import ImportExport from "../../components/import-export/ImportExport";
-<ImportExport galleryItems={galleryItems} onImportDone={fetchData} />
+import ImportExport from "../../components/impexp/import-export";
+
 
 function Gallery() {
   const { language } = useLanguage();
@@ -90,6 +90,7 @@ function Gallery() {
     : galleryItems.filter(item => item.category === selected);
 
   return (
+    
     <div className="gallery">
       <Header />
 
@@ -115,6 +116,8 @@ function Gallery() {
           + Añadir foto
         </button>
       </div>
+      
+      <ImportExport galleryItems={galleryItems} onImportDone={fetchData} />
 
       <section className="gallery__grid">
         {filtered.map((item) => (
