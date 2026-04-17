@@ -6,6 +6,8 @@ import GalleryCards from "./GalleryCards";
 import { useLanguage } from "../../i18n/Language";
 import translations from "../../i18n/translations";
 import "./Gallery.css";
+import ImportExport from "../../components/import-export/ImportExport";
+<ImportExport galleryItems={galleryItems} onImportDone={fetchData} />
 
 function Gallery() {
   const { language } = useLanguage();

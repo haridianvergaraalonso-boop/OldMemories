@@ -1,5 +1,6 @@
 import "./Gallery.css";
 
+
 function GalleryCards({ id, title, description, category, year, color, image, tags, onDelete, onEdit }) {
     return (
         <article className="gallery-card" style={{ "--card-color": color }}>
